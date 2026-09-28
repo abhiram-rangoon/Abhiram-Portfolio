@@ -1,0 +1,79 @@
+
+
+The humans.txt explains the person, philosophy, and
+technology behind this portfolio. humanstxt.org
+
+_______________________________________________________________________________
+
+ENGINEER | エンジニア
+
+Abhiram Rangoon
+AI / GenAI & Software Engineer
+
+Currently building:
+↳ LLM-powered systems & RAG pipelines
+↳ Enterprise microservices & ERP platforms
+↳ Autonomous AI agents that actually work
+
+Philosophy:
+"Build systems that solve real problems —
+ reliable, cost-aware, and production-ready."
+
+github.com/abhiram-1729
+linkedin.com/in/abhiramrangoon
+abhiramrangoon@gmail.com
+
+_______________________________________________________________________________
+
+TECHNOLOGY | テクノロジー
+
+AI / GenAI Stack:
+  Python · PyTorch · LangChain · Transformers
+  RAG · LoRA/QLoRA · ChromaDB · Gemini API
+  LLM Agents · Prompt Engineering · FastAPI
+
+Web & Backend Stack:
+  Node.js · Express.js · React.js · Remix
+  NestJS · TypeScript · REST APIs · Microservices
+
+Database & Cloud:
+  PostgreSQL · Prisma ORM · Supabase · MySQL
+  ChromaDB · Vector Databases · AWS · Docker
+
+UI & Animation:
+  Three.js · Framer Motion · CSS Modules · Vite
+
+_______________________________________________________________________________
+
+PROJECTS | プロジェクト
+
+→ Multi-Service Enterprise ERP Platform
+   Node.js · Express · React · PostgreSQL · Prisma · JWT · Argon2
+
+→ goovahaan — Vehicle Care & Garage Platform
+   NestJS · Flutter · Dart · Prisma · PostgreSQL · Clean Architecture
+
+→ VillageKart Sales Management System (VSMS)
+   Node.js · Express · React · PostgreSQL · Render · REST APIs
+
+→ AI Research Copilot — Multi-Agent AI Assistant
+   Python · Streamlit · Gemini API · SerpAPI · Notion · LangChain
+
+→ Smart Hiring Assistant — Autonomous Recruitment Bot
+   Python · Ollama (Llama 3.2) · Gmail API · LangChain · Pydantic
+
+→ Modular RAG Chat Assistant
+   Python · ChromaDB · Gemini · HuggingFace · LCEL · LangChain
+
+_______________________________________________________________________________
+
+FONTS | フォント
+
+Inter
+Geist Mono
+IPA Gothic
+
+_______________________________________________________________________________
+
+/* Built from scratch. Powered by curiosity. */
+/* Last updated: 2026 */
