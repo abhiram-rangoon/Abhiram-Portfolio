@@ -14,3 +14,8 @@ export function ErrorBoundary() {
 
   return <Error error={error} />;
 }
+
+export default function Splat() {
+  return null;
+}
+

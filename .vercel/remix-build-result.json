@@ -1,0 +1,353 @@
+{
+  "buildManifest": {
+    "serverBundles": {
+      "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs-eyJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    },
+    "routeIdToServerBundleId": {
+      "routes/articles.modern-styling-in-react": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.smart-hiring-assistant": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.ai-research-copilot": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.rag-chat-assistant": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.volkihar-knight": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.enterprise-erp": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.smart-sparrow": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/articles.hello-world": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.goovahaan": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/articles_._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.slice": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/api.set-theme": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.vsms": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/articles": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/contact": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/home": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/uses": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/$": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/home/route": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0"
+    },
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "app/root.jsx",
+        "config": {}
+      },
+      "routes/articles.modern-styling-in-react": {
+        "file": "app/routes/articles.modern-styling-in-react.mdx",
+        "id": "routes/articles.modern-styling-in-react",
+        "path": "modern-styling-in-react",
+        "parentId": "routes/articles",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.smart-hiring-assistant": {
+        "file": "app/routes/projects.smart-hiring-assistant/route.js",
+        "id": "routes/projects.smart-hiring-assistant",
+        "path": "projects/smart-hiring-assistant",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.ai-research-copilot": {
+        "file": "app/routes/projects.ai-research-copilot/route.js",
+        "id": "routes/projects.ai-research-copilot",
+        "path": "projects/ai-research-copilot",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.rag-chat-assistant": {
+        "file": "app/routes/projects.rag-chat-assistant/route.js",
+        "id": "routes/projects.rag-chat-assistant",
+        "path": "projects/rag-chat-assistant",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.volkihar-knight": {
+        "file": "app/routes/projects.volkihar-knight/route.js",
+        "id": "routes/projects.volkihar-knight",
+        "path": "projects/volkihar-knight",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.enterprise-erp": {
+        "file": "app/routes/projects.enterprise-erp/route.js",
+        "id": "routes/projects.enterprise-erp",
+        "path": "projects/enterprise-erp",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.smart-sparrow": {
+        "file": "app/routes/projects.smart-sparrow/route.js",
+        "id": "routes/projects.smart-sparrow",
+        "path": "projects/smart-sparrow",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/articles.hello-world": {
+        "file": "app/routes/articles.hello-world.mdx",
+        "id": "routes/articles.hello-world",
+        "path": "hello-world",
+        "parentId": "routes/articles",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.goovahaan": {
+        "file": "app/routes/projects.goovahaan/route.js",
+        "id": "routes/projects.goovahaan",
+        "path": "projects/goovahaan",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/articles_._index": {
+        "file": "app/routes/articles_._index/route.jsx",
+        "id": "routes/articles_._index",
+        "path": "articles",
+        "index": true,
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.slice": {
+        "file": "app/routes/projects.slice/route.js",
+        "id": "routes/projects.slice",
+        "path": "projects/slice",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/api.set-theme": {
+        "file": "app/routes/api.set-theme.js",
+        "id": "routes/api.set-theme",
+        "path": "api/set-theme",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.vsms": {
+        "file": "app/routes/projects.vsms/route.js",
+        "id": "routes/projects.vsms",
+        "path": "projects/vsms",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/articles": {
+        "file": "app/routes/articles/route.jsx",
+        "id": "routes/articles",
+        "path": "articles",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/contact": {
+        "file": "app/routes/contact/route.js",
+        "id": "routes/contact",
+        "path": "contact",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/home": {
+        "file": "app/routes/home/route.js",
+        "id": "routes/home",
+        "path": "home",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/uses": {
+        "file": "app/routes/uses/route.js",
+        "id": "routes/uses",
+        "path": "uses",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/$": {
+        "file": "app/routes/$.jsx",
+        "id": "routes/$",
+        "path": "*",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/home/route": {
+        "path": "/",
+        "index": true,
+        "id": "routes/home/route",
+        "parentId": "root",
+        "file": "app/routes/home/route.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    }
+  },
+  "remixConfig": {
+    "appDirectory": "/Users/abhiramrangoon/Documents/portfolio-master/app",
+    "basename": "/",
+    "buildDirectory": "/Users/abhiramrangoon/Documents/portfolio-master/build",
+    "future": {
+      "v3_fetcherPersist": false,
+      "v3_relativeSplatPath": false,
+      "v3_throwAbortReason": false
+    },
+    "manifest": false,
+    "publicPath": "/",
+    "routes": {
+      "root": {
+        "path": "",
+        "id": "root",
+        "file": "root.jsx"
+      },
+      "routes/articles.modern-styling-in-react": {
+        "file": "routes/articles.modern-styling-in-react.mdx",
+        "id": "routes/articles.modern-styling-in-react",
+        "path": "modern-styling-in-react",
+        "parentId": "routes/articles"
+      },
+      "routes/projects.smart-hiring-assistant": {
+        "file": "routes/projects.smart-hiring-assistant/route.js",
+        "id": "routes/projects.smart-hiring-assistant",
+        "path": "projects/smart-hiring-assistant",
+        "parentId": "root"
+      },
+      "routes/projects.ai-research-copilot": {
+        "file": "routes/projects.ai-research-copilot/route.js",
+        "id": "routes/projects.ai-research-copilot",
+        "path": "projects/ai-research-copilot",
+        "parentId": "root"
+      },
+      "routes/projects.rag-chat-assistant": {
+        "file": "routes/projects.rag-chat-assistant/route.js",
+        "id": "routes/projects.rag-chat-assistant",
+        "path": "projects/rag-chat-assistant",
+        "parentId": "root"
+      },
+      "routes/projects.volkihar-knight": {
+        "file": "routes/projects.volkihar-knight/route.js",
+        "id": "routes/projects.volkihar-knight",
+        "path": "projects/volkihar-knight",
+        "parentId": "root"
+      },
+      "routes/projects.enterprise-erp": {
+        "file": "routes/projects.enterprise-erp/route.js",
+        "id": "routes/projects.enterprise-erp",
+        "path": "projects/enterprise-erp",
+        "parentId": "root"
+      },
+      "routes/projects.smart-sparrow": {
+        "file": "routes/projects.smart-sparrow/route.js",
+        "id": "routes/projects.smart-sparrow",
+        "path": "projects/smart-sparrow",
+        "parentId": "root"
+      },
+      "routes/articles.hello-world": {
+        "file": "routes/articles.hello-world.mdx",
+        "id": "routes/articles.hello-world",
+        "path": "hello-world",
+        "parentId": "routes/articles"
+      },
+      "routes/projects.goovahaan": {
+        "file": "routes/projects.goovahaan/route.js",
+        "id": "routes/projects.goovahaan",
+        "path": "projects/goovahaan",
+        "parentId": "root"
+      },
+      "routes/articles_._index": {
+        "file": "routes/articles_._index/route.jsx",
+        "id": "routes/articles_._index",
+        "path": "articles",
+        "index": true,
+        "parentId": "root"
+      },
+      "routes/projects.slice": {
+        "file": "routes/projects.slice/route.js",
+        "id": "routes/projects.slice",
+        "path": "projects/slice",
+        "parentId": "root"
+      },
+      "routes/api.set-theme": {
+        "file": "routes/api.set-theme.js",
+        "id": "routes/api.set-theme",
+        "path": "api/set-theme",
+        "parentId": "root"
+      },
+      "routes/projects.vsms": {
+        "file": "routes/projects.vsms/route.js",
+        "id": "routes/projects.vsms",
+        "path": "projects/vsms",
+        "parentId": "root"
+      },
+      "routes/articles": {
+        "file": "routes/articles/route.jsx",
+        "id": "routes/articles",
+        "path": "articles",
+        "parentId": "root"
+      },
+      "routes/contact": {
+        "file": "routes/contact/route.js",
+        "id": "routes/contact",
+        "path": "contact",
+        "parentId": "root"
+      },
+      "routes/home": {
+        "file": "routes/home/route.js",
+        "id": "routes/home",
+        "path": "home",
+        "parentId": "root"
+      },
+      "routes/uses": {
+        "file": "routes/uses/route.js",
+        "id": "routes/uses",
+        "path": "uses",
+        "parentId": "root"
+      },
+      "routes/$": {
+        "file": "routes/$.jsx",
+        "id": "routes/$",
+        "path": "*",
+        "parentId": "root"
+      },
+      "routes/home/route": {
+        "path": "/",
+        "index": true,
+        "id": "routes/home/route",
+        "parentId": "root",
+        "file": "routes/home/route.js"
+      }
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": true
+  }
+}

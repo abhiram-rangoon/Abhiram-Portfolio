@@ -10,8 +10,12 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
+    label: 'Skills',
+    pathname: '/#skills',
+  },
+  {
     label: 'Contact',
-    pathname: '/contact',
+    pathname: '/#contact',
   },
 ];
 

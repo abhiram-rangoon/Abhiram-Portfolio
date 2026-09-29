@@ -13,6 +13,8 @@ import { baseMeta } from '~/utils/meta';
 import { Intro } from './intro';
 import { Profile } from './profile';
 import { ProjectSummary } from './project-summary';
+import { Skills } from './skills';
+import { Contact } from '../contact/contact';
 import { useEffect, useRef, useState } from 'react';
 import config from '~/config.json';
 import styles from './home.module.css';
@@ -52,6 +54,7 @@ export const Home = () => {
   const projectTwo = useRef();
   const projectThree = useRef();
   const details = useRef();
+  const skills = useRef();
 
   useEffect(() => {
     const sections = [
@@ -60,6 +63,7 @@ export const Home = () => {
       projectTwo,
       projectThree,
       details,
+      skills,
     ];
 
     const sectionObserver = new IntersectionObserver(
@@ -176,6 +180,12 @@ export const Home = () => {
         visible={visibleSections.includes(details.current)}
         id="details"
       />
+      <Skills
+        sectionRef={skills}
+        visible={visibleSections.includes(skills.current)}
+        id="skills"
+      />
+      <Contact />
       <Footer />
     </div>
   );
